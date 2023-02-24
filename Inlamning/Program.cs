@@ -7,9 +7,9 @@
             Element syre = new Element() { namn = "Syre", Z = 8, typ = "Ickemetall", smältpunkt = 54.36, kokpunkt = 90.188 };
             Element järn = new Element() { namn = "Järn", Z = 26, typ = "Metall", smältpunkt = 1811, kokpunkt = 3134 };
             Element guld = new Element() { namn = "Guld", Z = 79, typ = "Metall", smältpunkt = 1337.33, kokpunkt = 3243 };
-            syre.Print();
-            järn.Print();
-            guld.Print();
+           /* syre.Print();
+              järn.Print();
+              guld.Print(); */
             Element[] elements = new Element[6] { syre, järn, guld,
                 new Element() { namn = "Väte", Z = 1, typ = "Ickemetall", smältpunkt = 13.99, kokpunkt = 20.271 },
                 new Element() { namn = "Brom", Z = 35, typ = "Ickemetall", smältpunkt = 265.8, kokpunkt = 332.0 },
