@@ -26,6 +26,14 @@
                     Console.WriteLine(e.namn);
                 }
             }
+            Console.WriteLine("\n----------ÄMNEN MED SMÄLTPUNKT UNDER 273.16 OCH KOKPUNKT ÖVER 273.16----------");
+            foreach(Element e in elements)
+            {
+                if (e.smältpunkt < 273.16 && e.kokpunkt > 273.16) 
+                {
+                    e.Print();
+                }
+            }
         }
         class Element
         {
