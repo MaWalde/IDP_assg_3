@@ -14,6 +14,10 @@
                 new Element() { namn = "Väte", Z = 1, typ = "Ickemetall", smältpunkt = 13.99, kokpunkt = 20.271 },
                 new Element() { namn = "Brom", Z = 35, typ = "Ickemetall", smältpunkt = 265.8, kokpunkt = 332.0 },
                 new Element() { namn = "Kvicksilver", Z = 80, typ = "Metall", smältpunkt = 234.3210, kokpunkt = 629.88 } };
+            foreach(Element e in elements)
+            {
+                e.Print();
+            }
         }
         class Element
         {
