@@ -4,13 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Element syre = new Element() { namn = Syre, Z = 8, typ = ickemetall, smältpunkt = 54.36, kokpunkt = 90.188 };
         }
         class Element
         {
             public string namn, typ;
-            public int Z, smältpunkt, kokpunkt;
+            public double Z, smältpunkt, kokpunkt;
         }
     }
-
 }
