@@ -18,6 +18,14 @@
             {
                 e.Print();
             }
+            Console.WriteLine("----------------METALLER-----------------");
+            foreach(Element e in elements)
+            {
+                if ( e.typ == "Metall" )
+                {
+                    Console.WriteLine(e.namn);
+                }
+            }
         }
         class Element
         {
