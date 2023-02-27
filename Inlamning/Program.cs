@@ -35,7 +35,8 @@
                 }
             }
         }
-        class Element
+    }
+    public class Element
         {
             public string namn, typ;
             public double Z, smältpunkt, kokpunkt;
@@ -48,5 +49,4 @@
                 Console.WriteLine($"  Kokpunkt: {kokpunkt}\n");
             }
         }
-    }
 }
